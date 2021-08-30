@@ -19,7 +19,7 @@ client_color = random.choice(colors)
 
 # Ip servidor | se o servidor não estiver neste computador | colocar o endereço privado de rede (192.168.1.2)
 
-SERVER_HOST = "0.0.0.0"
+SERVER_HOST = "127.0.0.1"
 SERVER_PORT = 5002 #Port do servidor 
 separator_token = "<SEP>" #separando o nome do cliente e a mensagem 
 
