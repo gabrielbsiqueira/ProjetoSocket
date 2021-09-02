@@ -17,7 +17,7 @@ colors = [Fore.BLUE, Fore.CYAN, Fore.GREEN, Fore.LIGHTBLACK_EX,
 #gerando uma cor aleatoria para o cliente 
 client_color = random.choice(colors)
 
-# Ip servidor | se o servidor não estiver neste computador | colocar o endereço privado de rede (192.168.1.2)
+# Ip servidor 
 
 SERVER_HOST = "127.0.0.1"
 SERVER_PORT = 5002 #Port do servidor 
@@ -38,7 +38,7 @@ def listen_for_messages():
         message = s.recv(1024).decode()
         print("\n" + message)
 
-#gravando a mensagem do cliente edar um print 
+#gravando a mensagem do cliente e dar um print 
 t = Thread(target=listen_for_messages)
 # daemon do thread para que ele termine sempre que o thread principal terminar 
 t.daemon = True
