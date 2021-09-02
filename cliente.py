@@ -19,7 +19,7 @@ client_color = random.choice(colors)
 
 # Ip servidor 
 
-SERVER_HOST = "127.0.0.1"
+SERVER_HOST = "10.8.0.13"
 SERVER_PORT = 5002 #Port do servidor 
 separator_token = "<SEP>" #separando o nome do cliente e a mensagem 
 
